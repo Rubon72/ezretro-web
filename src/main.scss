@@ -1,0 +1,53 @@
+@import '~bulma';
+$button-color: #736ced;
+
+html {
+  overflow-y: auto; // overwrite bulma
+}
+
+body{
+  background-color: #f5f7f9;
+}
+
+.newRetro_main{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
+}
+
+.newRetro_box{
+  width:320px;
+  button{
+    margin-top:16px;
+    width:100%;
+  }
+}
+
+.newPointWrapper{
+  position:relative;
+  padding-right:20px;
+  button{
+    position:absolute;
+    top:0;
+    right:0;
+  }
+}
+
+.cartelLink{
+  color: #d7d7d7;
+  display: flex;
+}
+
+.cartelLink_icon{
+  width: 24px;
+  height: 24px;
+  display:inline-block;
+  border-radius: 6px;
+  background: url("assets/img/code-cartel.svg") no-repeat 0 0 #d7d7d7;
+}
+
+.grecaptcha-badge{
+  display:none!important;
+}
